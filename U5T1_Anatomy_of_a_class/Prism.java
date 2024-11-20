@@ -10,6 +10,18 @@ public class Prism {
         this.height = height;
     }
 
+    public Prism(int side) {
+        length = side;
+        width = side;
+        height = side;
+    }
+
+    public Prism() {
+        length = (int) (Math.random() * 91) + 10;
+        width = (int) (Math.random() * 91) + 10;
+        height = (int) (Math.random() * 91) + 10;
+    }
+
 
     public void setLength(int newLength) {
         length = newLength;
