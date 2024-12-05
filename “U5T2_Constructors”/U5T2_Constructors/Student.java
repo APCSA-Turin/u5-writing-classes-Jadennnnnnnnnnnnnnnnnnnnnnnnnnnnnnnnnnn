@@ -32,9 +32,8 @@ public class Student {
      * Sets high school to a certain type depending on grade
      * 
      * @param name The name
-     * @param grade The grade level
      */
-    public Student(String name, int grade) {
+    public Student(String name) {
         this.name = name;
         gradeLevel = grade;
         if (grade >= 9 && grade <= 12) {
@@ -53,6 +52,16 @@ public class Student {
      */
     public String studentInfo() {
       return name + " is in grade " + gradeLevel + " and goes to " + school;
+    }
+
+    public void addPoints(int i) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'addPoints'");
+    }
+
+    public static char[] classInfo() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'classInfo'");
     }
   }
   
