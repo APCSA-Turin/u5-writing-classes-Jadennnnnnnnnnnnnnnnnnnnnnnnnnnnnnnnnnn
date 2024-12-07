@@ -33,7 +33,7 @@ public class Student {
      * 
      * @param name The name
      */
-    public Student(String name) {
+    public Student(String name, int grade) {
         this.name = name;
         gradeLevel = grade;
         if (grade >= 9 && grade <= 12) {

@@ -31,4 +31,16 @@ public class Person {
         meetings++;
         p2.setMeetings(p2.getMeetings() + 1);
     }
+
+
+    public boolean isVaccinated() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'isVaccinated'");
+    }
+
+
+    public void setVaccinated(boolean b) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'setVaccinated'");
+    }
 }
